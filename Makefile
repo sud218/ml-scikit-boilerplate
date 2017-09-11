@@ -13,10 +13,10 @@ build: clean
 
 run: build
 	sudo docker run --name scikit \
-		-p 8888:8888 \
+		-p 8889:8889 \
 		-v ${PWD}:/workspace \
 		-it scikit-core \
-		/bin/bash -c "jupyter notebook --notebook-dir=/workspace/notebooks --ip='0.0.0.0' --allow-root --port=8888 --no-browser"
+		/bin/bash -c "jupyter notebook --notebook-dir=/workspace/notebooks --ip='0.0.0.0' --allow-root --port=8889 --no-browser"
 
 shell:
 	sudo docker exec -it scikit bash

@@ -7,5 +7,5 @@ services:
     volumes:
       - ./:/workspace
     ports:
-      - "8888:8888"
+      - "8889:8889"
     image: scikit-core  # Tag Name

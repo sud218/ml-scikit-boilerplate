@@ -1,6 +1,6 @@
 ############################################################
-# Dockerfile to run graphlab
-# Based on Miniconda2 Image
+# Dockerfile to run scikit
+# Based on Miniconda3 Image
 ############################################################
 
 FROM continuumio/miniconda3
@@ -15,7 +15,8 @@ RUN set -eux \
     && rm -rf /var/lib/apt/lists/*
 
 RUN conda update --yes pip
-RUN conda install -y ipython ipython-notebook
+RUN pip install ipython \
+    && pip install jupyter
 
 COPY requirements.txt /tmp/requirements.txt
 RUN set -eux \
