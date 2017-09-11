@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  scikit-core:
+    build:
+      context: .
+    volumes:
+      - ./:/workspace
+    ports:
+      - "8888:8888"
+    image: scikit-core  # Tag Name
