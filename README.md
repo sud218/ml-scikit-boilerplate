@@ -28,11 +28,8 @@ Voila! You are ready to get started on machine learning.
 Note: If you are running on cloud, replace the ip `0.0.0.0` in the above url to with your **`docker-ip`**. You can very easily get your **`docker-ip`** by running `make docker-ip`.
 
 ### What's next?
-- When you open the `notebook url`, you will see some example notebooks. Go through them and run the notebooks to get first hand experience on different applications of machine learning.
 - Read [Scikit docs][scikit-docs] and explore different models and tools available.
 - Create your own notebook!
-
-![jupyter-image]
 
 ---
 _Facing trouble running? Please create an [issue][git-issue] and I will get back to you._
