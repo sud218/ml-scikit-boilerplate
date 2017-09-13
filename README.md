@@ -42,7 +42,7 @@ _Facing trouble running? Please create an [issue][git-issue] and I will get back
 [jupyter]: http://jupyter.org/
 [docker-install]: https://docs.docker.com/engine/installation/
 [gl-api-key]: https://turi.com/download/academic.html
-[installation-image]: https://i.imgur.com/RxPNuXP.png
+[installation-image]: https://i.imgur.com/I3YL63h.png
 [scikit-docs]: http://scikit-learn.org/stable/documentation.html
 [git-issue]: https://github.com/sud218/ml-scikit-boilerplate/issues
 [jupyter-image]: https://i.imgur.com/v4JcLhI.png
